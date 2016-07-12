@@ -16,18 +16,18 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <!-- Compiled and minified JavaScript -->
-    <!-- <script src="/vendors/js/jquery-1.12.0.min.js"></script>-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
 
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#fullpage').fullpage({
                 //sectionsColor: ['#1c3f5c', '#d6d6d6', '#847858'],
                 sectionsColor: ['#d6d6d6', '#f8f8f8', '#d6d6d6'],
+                //sectionsColor: ['#7BAABE', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
                 css3: true,
                 lockAnchors: false,
-                overflowScroll: false,
+                overflowScroll: true,
                 navigation: true,
             });
         });
@@ -41,32 +41,21 @@
             <div class="section-profile" align="">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-                            <h4>Work Experience</h4>
-                            <ul>
-                                <b>Lead Consultant</b>
-                                <p>VirtusaPolaris<br>Mar 2012 - Till Date</p>
-                            </ul>
-                            <ul>
-                                <b>Associate Member of Technical Staff</b>
-                                <p>TIBCO Software Inc<br>Feb 2010 - Feb 2012</p>
-                            </ul>
-                            <ul>
-                                <b>SOA Test Analyst</b>
-                                <p>Mahindra Satyam<br>Jun 2007 - Feb 2010</p>
-                            </ul>
+                        <h2>Work Experience</h2>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 employer-box">
+                            <b>Lead Consultant</b>
+                            <p>VirtusaPolaris
+                                <br>Mar 2012 - Till Date</p>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-                            <h4>Education</h4>
-                            <ul>
-                                <b>M.S Software Systems</b>
-                                <p>Birla Institute Of Technology and Science (BITS)</p>
-                            </ul>
-                            <ul>
-                                <b>B.Tech Electronics and Communications</b>
-                                <p>Jawaharlal Nehru Technological University (JNTU)</p>
-                            </ul>
-
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 employer-box">
+                            <b>Associate Member of Technical Staff</b>
+                            <p>TIBCO Software Inc
+                                <br>Feb 2010 - Feb 2012</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 employer-box">
+                            <b>SOA Test Analyst</b>
+                            <p>Mahindra Satyam
+                                <br>Jun 2007 - Feb 2010</p>
                         </div>
                     </div>
                 </div>
