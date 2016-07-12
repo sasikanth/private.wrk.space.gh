@@ -65,7 +65,7 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     letter-spacing: 1px;
 }
 
@@ -81,18 +81,22 @@ h2:after {
     content: " ";
     width: 200px;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 
 /* ----- Employer ----- */
 
 .employer-box {
-    border: 0px solid #3f56ff;
     text-align: center;
-    min-height: 20vh;
-    display: inline-block !important;
+    display: block !important;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.employer-box p {
+    margin: 2px;
 }
 
 .section-profile {}
